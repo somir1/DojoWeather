@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.topnav{
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+.bottomnav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.maincon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.centernav{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em;
+}
+
+.navleft{
+    font-size: 25px;
+    color: white;
+}
+
+.navright{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5em;
+    color: white;
+}
+
+.bottomnav{
+    width: 100%;
+}
+
+.bottomcenter{
+    width: 60%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5em;
+    border-bottom: 6px black solid;
+}
+
+.bright{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5em;
+}
+
+.maincon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 500px;
+}
+
+.contentbox{
+    margin-top: 1.5em;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1.5em;
+}
+
+.weather{
+    width: 25%;
+    height: 100%;
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+}
+
+.weather h1{
+    font-size: 70px;
+}
+
+.weather img{
+    width: 200px;
+    border-radius: 50%;
+}
+
+.temps{
+    display: flex;
+    width: 55%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.templeft{
+    color: crimson;
+}
+
+.tempright{
+    color: blue;
+}
+
+.cookiecon{
+    width: 40%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #eeeeee;
+    border: 6px black solid;
+    align-items: center;
+    margin: 1.5em;
+    position: fixed;
+    top: 73%;
+    left: 50%
+    transform: translate(-50%, -50%)
+}
+.cookiecenter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+.cookietext h2{
+    font-size: 40px;
+}
+
+.cookietext h3{
+    font-size: 20px;
+}
+
+.cookiecenter button{
+    width: 80px;
+    height: 30px;
+    margin: 1.5em;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    background-color: chartreuse;
+}
