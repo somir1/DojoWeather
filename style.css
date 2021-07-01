@@ -11,6 +11,14 @@
     display: flex;
     justify-content: center;
 }
+.topnav h1{
+    text-shadow: 2px 2px black;
+}
+
+.topnav h2{
+    text-shadow: 1.5px 1.5px black;
+}
+
 .bottomnav{
     width: 100%;
     display: flex;
@@ -55,7 +63,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 1.5em;
+    margin: 3.5em;
+    padding-bottom: 2.5em;
     border-bottom: 6px black solid;
 }
 
@@ -92,6 +101,7 @@
     align-items: center;
     gap: 2em;
     padding: 10px;
+    box-shadow: 3px 2.5px black;
 }
 
 .weather h1{
@@ -163,3 +173,7 @@
 .high::after, .low::after{
     content: "°";
 }
+ select{
+     width: 70px;
+     text-align: center;
+ }
