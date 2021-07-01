@@ -32,9 +32,9 @@
             </div>
             <div class="bright">
                 <p><b>Show Tempeture</b></p>
-                <select name="farenheit" id="degrees">
-                    <option value="F">°F</option>
+                <select name="farenheit" id="degrees" onchange="changeUnit(this)">
                     <option value="C">°C</option>
+                    <option value="F">°F</option>
                 </select>
             </div>
         </div>
@@ -47,49 +47,49 @@
                 <h3>some rain</h3>
                 <div class="temps">
                     <div class="templeft">
-                        <h2>24°</h2>
+                        <h2 class="tempnum high">24</h2>
                     </div>
                     <div class="tempright">
-                        <h2>18°</h2>
+                        <h2 class="tempnum low">18</h2>
                     </div>
                 </div>
             </div>
             <div class="weather">
-                <h1>Today</h1>
+                <h1>Tommorrow</h1>
                 <img src="./assets/some_sun.png" alt="sun">
                 <h3>some sun</h3>
                 <div class="temps">
                     <div class="templeft">
-                        <h2>27°</h2>
+                        <h2 class="tempnum high">27</h2>
                     </div>
                     <div class="tempright">
-                        <h2>19°</h2>
+                        <h2 class="tempnum low">19</h2>
                     </div>
                 </div>
             </div>
             <div class="weather">
-                <h1>Today</h1>
+                <h1>Friday</h1>
                 <img src="./assets/some_clouds.png" alt="cloud">
                 <h3>Cloudy</h3>
                 <div class="temps">
                     <div class="templeft">
-                        <h2>21°</h2>
+                        <h2 class="tempnum high">21</h2>
                     </div>
                     <div class="tempright">
-                        <h2>16°</h2>
+                        <h2 class="tempnum low">16</h2>
                     </div>
                 </div>
             </div>
             <div class="weather">
-                <h1>Today</h1>
+                <h1>Saturday</h1>
                 <img src="./assets/some_sun.png" alt="sun">
                 <h3>some sun</h3>
                 <div class="temps">
                     <div class="templeft">
-                        <h2>26°</h2>
+                        <h2 class="tempnum high">26</h2>
                     </div>
                     <div class="tempright">
-                        <h2>21°</h2>
+                        <h2 class="tempnum low">21</h2>
                     </div>
                 </div>
             </div>
@@ -100,8 +100,8 @@
                 <div class="cookietext">
                     <h2><b>Stop! Cookie time</b></h2>
                     <h3>We use cookies (sadly not the ediable ones) to personalize <br>
-                    conent and ads, to provide social media features and to <br> 
-                    analyse our trafic.</h3>
+                        conent and ads, to provide social media features and to <br>
+                        analyse our trafic.</h3>
                 </div>
                 <button onclick="remove('cookiecon-id')">I Accept</button>
             </div>
